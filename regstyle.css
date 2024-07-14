@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(87, 132, 151);
+}
+body{
+    background-image: url(https://www.freecodecamp.org/news/content/images/size/w2000/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: blur(1px); */
+}
+.formbody{
+    /* background-color: rgb(28, 70, 128); */
+    width: 500px;
+    padding: 20px;
+    position: absolute;
+    /* font-size: large;
+    align-items: center;
+    justify-content: center;
+    display: flex; */
+    margin-left: 10px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10%;
+    backdrop-filter: blur(5px);
+}
+h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+    color: whitesmoke;
+}
+.input-box{
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+}
+.input-box ::placeholder{
+    color:black;
+}
+.input-field{
+    padding: 5px;
+}
+.input-field input{
+    padding: 5px 8px 10px;
+    border-radius: 5px;
+    border-style: groove;
+}
+
+i{
+    color: whitesmoke;
+}
+
+button{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding: 6px 6px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 190px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    scale: 110%;
+    color: black;
+    /* background-color: hsl(197, 76%, 42%); */
+    transition-duration: 0.5s;
+}
